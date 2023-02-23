@@ -48,7 +48,7 @@ function AboutScreen() {
               >
                 samsongich44@gmail.com
               </a>{" "}
-              (or){" "}
+              {/* (or){" "}
               <a
                 href="https://www.facebook.com/lwin.im/"
                 target={"_blank"}
@@ -56,7 +56,7 @@ function AboutScreen() {
                 rel="noreferrer"
               >
                 facebook
-              </a>
+              </a> */}
             </div>
             <div>
               <span>🎁 </span>
