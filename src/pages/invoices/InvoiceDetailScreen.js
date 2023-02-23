@@ -47,7 +47,7 @@ import {
 import { useAppContext } from "../../context/AppContext";
 import TaxesIcon from "../../components/Icons/TaxesIcon";
 import DollarIcon from "../../components/Icons/DollarIcon";
-import CheckCircleIcon from "../../components/Icons/CheckCircleIcon";
+// import CheckCircleIcon from "../../components/Icons/CheckCircleIcon";
 import SecurityIcon from "../../components/Icons/SecurityIcon";
 import {
   getTotalTaxesWithPercent,
@@ -1370,7 +1370,7 @@ function InvoiceDetailScreen(props) {
         <div className="px-4 pt-3">
           <div className="bg-white rounded-xl px-3 py-3">
             <div className="flex flex-col flex-wrap sm:flex-row">
-              {params.id === "new" && (
+              {/* {params.id === "new" && (
                 <div className="w-full flex-1 my-1 sm:my-1 md:my-0 px-1">
                   <Button
                     outlined={1}
@@ -1382,8 +1382,8 @@ function InvoiceDetailScreen(props) {
                     <CheckCircleIcon className="h-5 w-5 mr-1" /> Save As Draft
                   </Button>
                 </div>
-              )}
-              {invoiceForm?.statusIndex !== "2" && (
+              )} */}
+              {/* {invoiceForm?.statusIndex !== "2" && (
                 <div className="w-full flex-1 my-1 sm:my-1 md:my-0 px-1">
                   <Button
                     outlined={1}
@@ -1396,7 +1396,7 @@ function InvoiceDetailScreen(props) {
                     {params.id === "new" ? "Save" : "Update"} As Unpaid
                   </Button>
                 </div>
-              )}
+              )} */}
               <div className="w-full flex-1 my-1 sm:my-1 md:my-0 px-1">
                 <Button
                   size="sm"
