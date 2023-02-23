@@ -8,6 +8,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "@vercel/analytics": "^0.1.10",
     "dom-to-image": "^2.6.0",
     "framer-motion": "^6.3.3",
     "localforage": "^1.10.0",

@@ -19,6 +19,7 @@ import InvoiceSettingModal from "./components/Invoice/InvoiceSettingModal";
 import InvoiceConfirmModal from "./components/Invoice/InvoiceConfirmModal";
 import InvoiceDeleteConfirm from "./components/Invoice/InvoiceDeleteConfirm";
 import PageLoading from "./components/Common/PageLoading";
+import { inject } from '@vercel/analytics';
 
 const App = () => {
   const { initialSetData } = useInitApp();
@@ -64,3 +65,4 @@ const App = () => {
 };
 
 export default App;
+inject();
