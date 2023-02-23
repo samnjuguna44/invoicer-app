@@ -61,7 +61,7 @@ function AboutScreen() {
             <div>
               <span>🎁 </span>
               <a
-                href="https://github.com/lwinmoepaing/invoice-maker"
+                href="https://github.com/samnjuguna44/invoicer-app"
                 className="underline cursor-pointer"
                 target={"_blank"}
                 rel="noreferrer"
@@ -85,13 +85,13 @@ function AboutScreen() {
           <PageTitle title="Contact" />
           <div className="mt-2 pl-1 text-sm">
             <a
-              href="tel:+959420059241"
+              href="tel:+254740233279"
               className="underline cursor-pointer"
               target={"_blank"}
               rel="noreferrer"
             >
               {" "}
-              +959420059241
+              +254740233279
             </a>
           </div>
         </div>
